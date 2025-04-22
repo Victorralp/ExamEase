@@ -1,0 +1,101 @@
+can you create a full well styled and designed and animated front end using react.js with all functionality working matching my spring boot backend structure also note that you will have student dashboard and admin dashboard separately so the login and sign up page will be role base where you are either an admin or a student and once logged in it will take them to their respective dashboards also add all functionalities like search , profile, logout and light and darkmode etc: 
+
+Project.ExamEase
+│
+├── config
+│   ├── SwaggerConfig
+│   └── WebConfig
+│
+├── controller
+│   ├── AuthController
+│   ├── EmailController
+│   ├── ExamController
+│   ├── ExamSessionController
+│   ├── FeedbackController
+│   ├── LogController
+│   ├── ProgressController
+│   ├── QuestionController
+│   ├── ResultController
+│   └── UserController
+│
+├── dto
+│   ├── AuthRequest
+│   ├── AuthResponse
+│   ├── EmailDTO
+│   ├── ExamDTO
+│   ├── ExamSessionDTO
+│   ├── FeedbackDTO
+│   ├── LogDTO
+│   ├── LoginRequest
+│   ├── LoginResponse
+│   ├── ProgressDTO
+│   ├── QuestionDTO
+│   ├── RegisterRequest
+│   ├── ResultDTO
+│   └── UserDTO
+│
+├── entity
+│   ├── EmailLog
+│   ├── Exam
+│   ├── ExamSession
+│   ├── Feedback
+│   ├── Log
+│   ├── Progress
+│   ├── Question
+│   ├── Result
+│   └── User
+│
+├── exception
+│   ├── GlobalExceptionHandler
+│   ├── ResourceNotFoundException
+│   └── UnauthorizedException
+│
+├── impl
+│   ├── AuthServiceImpl
+│   ├── EmailServiceImpl
+│   ├── ExamServiceImpl
+│   ├── ExamSessionServiceImpl
+│   ├── FeedbackServiceImpl
+│   ├── LogServiceImpl
+│   ├── ProgressServiceImpl
+│   ├── QuestionServiceImpl
+│   ├── ResultServiceImpl
+│   ├── UserDetailsServiceImpl
+│   └── UserServiceImpl
+│
+├── interfaces
+│   ├── AuthService
+│   ├── EmailService
+│   ├── ExamService
+│   ├── ExamSessionService
+│   ├── FeedbackService
+│   ├── LogService
+│   ├── ProgressService
+│   ├── QuestionService
+│   ├── ResultService
+│   └── UserService
+│
+├── repository
+│   ├── EmailLogRepository
+│   ├── ExamRepository
+│   ├── ExamSessionRepository
+│   ├── FeedbackRepository
+│   ├── LogRepository
+│   ├── ProgressRepository
+│   ├── QuestionRepository
+│   ├── ResultRepository
+│   └── UserRepository
+│
+├── security
+│   ├── JwtAuthEntryPoint
+│   ├── JwtAuthFilter
+│   ├── JwtFilter
+│   └── SecurityConfig
+│
+└── util
+    ├── DateTimeUtil
+    ├── EmailUtil
+    ├── JwtUtil
+    ├── MapperUtil
+    ├── PasswordEncoderUtil
+└── ExamEaseApplication
